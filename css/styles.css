@@ -1,0 +1,176 @@
+
+#title
+{
+    background-color: #ff4c68;
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+.navbar
+{
+    padding-bottom:6.25rem;
+}
+
+.navbar-brand
+{
+    font-size:2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+}
+.nav-item
+{
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+.download-image
+{
+    margin:0 0.625rem; 
+}
+h1
+{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size:3.5rem;
+    line-height:1.5;
+    margin-bottom:3.125rem;
+    color:white;
+}
+.title-image
+{
+    width:60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:25%;
+}
+#features
+{
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+}
+.features-box
+{
+    text-align: center;
+    padding: 4.5%;
+}
+.features-h3
+{
+    font-size: 1.23rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.features-image
+{
+    margin-bottom:15px;
+    font-size: 3rem;
+    color: #ef8172;
+}
+.features-image:hover
+{
+    color: #ff4c68;
+}
+.features-para
+{
+    color:#8f8f8f;
+}
+
+#testimonials
+{
+
+    background-color:#ef8172;
+    text-align:center;
+    color:#fff;
+}
+.testimonials-header
+{
+    font-size:3rem;
+    line-height:1.5;
+}
+.testimonials-image
+{
+    width:10%;
+    border-radius: 100%;
+    margin: 3.5%;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+#press
+{
+    background-color:#ef8172;
+    padding-bottom: 3%;
+    text-align:center;
+}
+.press-logo
+{
+    width:15%;
+    margin: 2.5%;
+}
+
+#pricing
+{
+    padding:100px;
+    text-align:center;
+}
+.pricing-coloumn
+{
+    padding:3% 2%;
+}
+@media (max-width:991.2px) 
+{
+    #title
+    {
+        text-align:center;
+    }
+    .title-image
+    {
+        position:static;
+        transform: rotate(0deg);
+        padding:50px;
+    }
+}
+
+
+#cta
+{
+    text-align:center;
+    background-color: #ff4c68;
+    padding:7% 15%;
+    
+}
+.cta-header
+{
+    font-size:3.5rem;
+    line-height: 1.5;
+    color:#fff;
+    margin-bottom: 50px;
+}
+.cta-image
+{
+    margin: auto 0.625rem;
+}
+#footer
+{
+    text-align:center;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+.footer-anchor
+{
+    color:inherit;
+    text-decoration: none;
+}
+.footer-anchor:hover
+{
+    color:gray;
+}
+.footer-logo
+{
+    padding:3% 1.5%;
+}
+.footer-para
+{
+    color:grey;
+}
